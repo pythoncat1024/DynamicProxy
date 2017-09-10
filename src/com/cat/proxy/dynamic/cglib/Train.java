@@ -1,12 +1,12 @@
-package com.cat.proxy.dynamic;
+package com.cat.proxy.dynamic.cglib;
 
 import java.util.Random;
 
 /**
  * Created by cat on 2017/9/10.
  */
-public class Car implements Moveable {
-    @Override
+public class Train {
+
     public boolean move(String road) {
 
         System.out.println("I am running in road: " + road);
